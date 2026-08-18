@@ -11,7 +11,7 @@ from ml.model import SiamXCorrNet, SoftArgmax2D
 # ============================================================
 
 TEST_CSV = "./output_5000/test/manifest.csv"
-MODEL_PATH = "best_model_new_aug.pt"
+MODEL_PATH = "./model/siamese_cnn.pt"
 
 BATCH_SIZE = 6
 NUM_WORKERS = 0
