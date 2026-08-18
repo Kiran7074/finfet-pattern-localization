@@ -1,0 +1,79 @@
+==========================================================================================
+OVERALL TEST RESULTS
+==========================================================================================
+Samples       : 100
+Mean CLE      : 4.84 px
+Median CLE    : 2.14 px
+@1 px         : 10.0%
+@2 px         : 47.0%
+@5 px         : 95.0%
+@10 px        : 97.0%
+==========================================================================================
+
+==========================================================================================
+PER-ARCHITECTURE TEST RESULTS
+==========================================================================================
+
+Architecture: finfet_10nm
+  Samples  : 22
+  Mean CLE : 11.96 px
+  Median   : 1.90 px
+  @1 px    : 9.1%
+  @2 px    : 54.5%
+  @5 px    : 86.4%
+  @10 px   : 90.9%
+
+Architecture: finfet_14nm
+  Samples  : 46
+  Mean CLE : 2.29 px
+  Median   : 2.11 px
+  @1 px    : 13.0%
+  @2 px    : 47.8%
+  @5 px    : 97.8%
+  @10 px   : 100.0%
+
+Architecture: finfet_22nm
+  Samples  : 32
+  Mean CLE : 3.61 px
+  Median   : 2.35 px
+  @1 px    : 6.2%
+  @2 px    : 40.6%
+  @5 px    : 96.9%
+  @10 px   : 96.9%
+
+==========================================================================================
+TOP 5 WORST TEST SAMPLES
+==========================================================================================
+idx= 87 | architecture=finfet_10nm  | error=  168.40px | peak_gap=   0.047
+   reference: ./output_5000\test\reference\00087.png
+   search:    ./output_5000\test\search\00087.png
+   GT:   (341.62, 492.99)
+   Pred: (510.00, 490.00)
+
+idx= 59 | architecture=finfet_10nm  | error=   50.68px | peak_gap=   0.013
+   reference: ./output_5000\test\reference\00059.png
+   search:    ./output_5000\test\search\00059.png
+   GT:   (110.92, 111.38)
+   Pred: (114.00, 161.97)
+
+idx= 60 | architecture=finfet_22nm  | error=   46.49px | peak_gap=   0.019
+   reference: ./output_5000\test\reference\00060.png
+   search:    ./output_5000\test\search\00060.png
+   GT:   (847.94, 480.45)
+   Pred: (846.00, 434.00)
+
+idx= 34 | architecture=finfet_14nm  | error=    5.55px | peak_gap=   0.171
+   reference: ./output_5000\test\reference\00034.png
+   search:    ./output_5000\test\search\00034.png
+   GT:   (839.52, 946.57)
+   Pred: (834.00, 946.00)
+
+idx= 37 | architecture=finfet_10nm  | error=    5.54px | peak_gap=   0.092
+   reference: ./output_5000\test\reference\00037.png
+   search:    ./output_5000\test\search\00037.png
+   GT:   (291.32, 836.46)
+   Pred: (286.00, 838.00)
+
+==========================================================================================
+TEST EVALUATION COMPLETE
+==========================================================================================
