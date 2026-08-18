@@ -21,7 +21,7 @@ def main():
     GAUSSIAN_SIGMA = 1.5
     # Weight given to coordinate loss
     LAMBDA_COORD = 2.0
-    MODEL_SAVE_PATH = "best_model_new_aug.pt"
+    MODEL_SAVE_PATH = "./model/siamese_cnn.pt"
 
     # Selection of the Device
 

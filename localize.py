@@ -7,7 +7,7 @@ from ml.model import SiamXCorrNet, SoftArgmax2D
 
 # Configuration
 
-MODEL_PATH = "siamese_cnn.pt"
+MODEL_PATH = "./model/siamese_cnn.pt"
 
 
 # Command-line arguments
